@@ -1,0 +1,14 @@
+{
+  "name": "tsc-postinstall",
+  "version": "1.0.0",
+  "description": "sample project that compiles TypeScript files after installing npm modules",
+  "main": "dist/app.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/typescript/bin/tsc"
+  },
+  "author": "jj09",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  }
+}
