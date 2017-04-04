@@ -4,7 +4,7 @@
   "description": "sample project that compiles TypeScript files after installing npm modules",
   "main": "dist/app.js",
   "scripts": {
-    "postinstall": "node ./node_modules/typescript/bin/tsc"
+    "postinstall": "tsc"
   },
   "author": "jj09",
   "license": "MIT",
